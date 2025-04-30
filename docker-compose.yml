@@ -1,6 +1,8 @@
 services:
   app:
     image: ghcr.io/joeyates/imap-backup:latest
+    environment:
+      - TZ=Europe/Berlin
     restart: unless-stopped
     command: ["/start.sh"]
     user: 1000:1000

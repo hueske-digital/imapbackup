@@ -1,4 +1,3 @@
-```markdown
 # IMAP-Backup mit Docker
 
 Dieses Projekt ermöglicht das Sichern von E-Mails über IMAP mithilfe eines Docker-Containers.
